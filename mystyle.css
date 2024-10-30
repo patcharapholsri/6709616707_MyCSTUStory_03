@@ -1,0 +1,83 @@
+body{
+    background-image: url('resources/IMG_9301.png');
+    background-repeat: repeat;
+    padding : 20px;
+}
+.poster{
+    background-color: #d6d6d6;
+    background-repeat: no-repeat;
+    height: 1100px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 6px 4px 21px 8px;
+}
+
+.vdo{
+    border: 5px solid #5a5a5a;
+}
+
+.img{
+    width: 200px;
+    border: 4px solid #d3ad2f;
+}
+.img2{
+    height: 100px;
+}
+
+h1 {
+    color: #291200;
+    font-size: 30pt;
+    font-weight: bold;
+    margin: 0px;
+}
+
+h3 {
+    color:rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.d1{
+    font-size: 20px;
+}
+
+.d2{
+    font-style: oblique;
+    font-size: 20pt;
+    font-weight: normal;
+    font-family: "New Amsterdam", sans-serif;;
+    margin: 5px 0;
+}
+
+.pages{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0px 5px 15px 5px hsl(0, 0%, 0%);
+}
+.marginbottom{
+    margin-bottom: 20px;
+}
+
+h4 {
+    /*text-shadow:0px 1px 0px #000000;*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:link {
+    color: #291200;
+    background-color: transparent;
+    text-decoration: none;
+} 
+a:visited {
+    color: #291200;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(231, 158, 0);
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+}
