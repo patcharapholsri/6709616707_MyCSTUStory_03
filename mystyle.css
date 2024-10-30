@@ -20,9 +20,11 @@ body{
 .img{
     width: 200px;
     border: 4px solid #d3ad2f;
+    margin-bottom: 10px;
 }
 .img2{
     height: 100px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -50,12 +52,10 @@ h3 {
 }
 
 .pages{
-    
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    background: #fff;
     box-shadow: 0px 5px 15px 5px hsl(0, 0%, 0%);
 }
 .marginbottom{
@@ -84,16 +84,18 @@ a:hover {
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 360px){
     
     .marginbottom{
         margin-bottom: 20px;
         float: left;
-        position: absolute;
+        position: fixed; 
+        
         background-color: #f0f0f0;
     }
     .pages{
-
+        
+        clear: both;
         display: flex;
         flex-direction: column;
         max-width: 100%;
@@ -110,3 +112,24 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 360px){
+    .pages{
+
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-shadow: 0px 5px 15px 5px hsl(0, 0%, 0%);
+    }
+    .poster{
+        height: 1300px;
+    }
+    body{
+        background-image: url('resources/IMG_9301.png');
+        background-repeat: repeat;
+        padding : 20px;
+    }
+}
