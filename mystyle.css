@@ -21,6 +21,7 @@ body{
     width: 200px;
     border: 4px solid #d3ad2f;
     margin-bottom: 10px;
+    background-color: white;
 }
 .img2{
     height: 100px;
@@ -57,29 +58,32 @@ h3 {
     margin-bottom: 10px;
     padding: 10px;
     box-shadow: 0px 5px 15px 5px hsl(0, 0%, 0%);
+    background-color: white;
 }
 .marginbottom{
     margin-bottom: 20px;
+    
 }
 
 h4 {
     margin-left: 0px;
     /*text-sh   adow:0px 1px 0px #000000;*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
 }
 a:link {
     color: #291200;
-    background-color: transparent;
+    background-color: white;
     text-decoration: none;
 } 
 a:visited {
     color: #291200;
-    background-color: transparent;
+    background-color: white;
     text-decoration: none;
 }
 a:hover {
     color: rgb(231, 158, 0);
-    background-color: transparent;
+    background-color: white;
     font-size: large;
     font-weight: bold;
 }
@@ -90,11 +94,9 @@ a:hover {
         margin-bottom: 20px;
         float: left;
         position: fixed; 
-        
-        background-color: #f0f0f0;
     }
-    .pages{
-        
+
+    .pages{  
         clear: both;
         display: flex;
         flex-direction: column;
