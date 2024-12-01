@@ -96,7 +96,7 @@ a:hover {
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) and (min-width: 361px){
+@media (max-width: 768px) and (min-width: 401px){
     
     .marginbottom{
         margin-bottom: 20px;
@@ -118,7 +118,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 360px){
+@media (max-width: 400px){
     .pages{
         display: flex;
         flex-direction: column;
