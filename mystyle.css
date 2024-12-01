@@ -96,7 +96,28 @@ a:hover {
     font-weight: bold;
 }
 
-@media (max-width: 768px) and (min-width: 401px){
+@media (max-device-width: 900px) and (min-device-width: 401px){
+    
+    .marginbottom{
+        margin-bottom: 20px;
+        float: left;
+        position: fixed; 
+        padding-right: px;
+        
+    }
+    .pages{ 
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    body{
+        background-image: url('resources/IMG_9301.png');
+        background-repeat: repeat;
+        padding : 20px;
+    }
+}
+@media (max-width: 900px) and (min-width: 401px){
     
     .marginbottom{
         margin-bottom: 20px;
@@ -118,7 +139,7 @@ a:hover {
     }
 }
 
-@media (max-width: 400px){
+@media (max-device-width: 400px) or (max-width: 400px){
     .pages{
         display: flex;
         flex-direction: column;
