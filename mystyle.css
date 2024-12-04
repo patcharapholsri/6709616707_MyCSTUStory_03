@@ -225,4 +225,13 @@ a:hover {
         font-weight: bold;
         margin: 0px;
     }
+    .poster{
+        background-color: #d6d6d6;
+        background-repeat: no-repeat;
+        height: 1300px;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+        box-shadow: 6px 4px 21px 8px;
+    }
 }
